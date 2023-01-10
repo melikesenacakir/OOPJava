@@ -18,9 +18,9 @@ public class Main {
         Student s2=new Student("Sena",45,98);
         s1.ShowStudentInfoAndScore();
         s2.ShowStudentInfoAndScore();
-        System.out.printf("%n%n");
-        System.out.println(s1.name+" not ort: "+s1.Calculatescore());
-        System.out.println(s2.name+" not ort: "+s2.Calculatescore());
+        System.out.printf("\n\n");
+        System.out.println(s1.name+" score average: "+s1.Calculatescore());
+        System.out.println(s2.name+" score average: "+s2.Calculatescore());
     }
     
 }
