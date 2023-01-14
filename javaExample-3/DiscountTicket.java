@@ -15,4 +15,5 @@ public class DiscountTicket extends StandardTicket{
         System.out.println("price before discount: "+price*number);
         return (price*number-number*price*discount);
     }
+    
 }
