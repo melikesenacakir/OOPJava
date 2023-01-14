@@ -36,6 +36,18 @@ public class AddingBankCustomer {
            System.out.println(a.holdername);
        }
        
+       for(BankAccount b: myAccount){
+           try{
+               b.balanceChange(500);
+           }catch(Exception e){
+               System.out.println(e.getMessage());
+           }
+            
+        }
+        
+        for(BankAccount ba: myAccount){
+            System.out.println(ba.toString());
+        }
         
     }
     
