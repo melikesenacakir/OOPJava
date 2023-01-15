@@ -10,6 +10,7 @@ public class TicketSeller {
         this.tickets=tickets;
     }
     public void Sell(Ticket ticket){
+        incomes+=ticket.computePrice();
         System.out.println(ticket.seatNumber+" is sold");
         tickets.remove(ticket);
     }

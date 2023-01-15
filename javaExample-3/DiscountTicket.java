@@ -10,9 +10,9 @@ public class DiscountTicket extends StandardTicket{
     }
     public void print(){
         System.out.println("Seatnumber: "+seatNumber+" How many tickets? : "+number+" Discount per ticket : "+discount);
+        System.out.println("price before discount: "+price*number);
     }
     public double computePrice(){
-        System.out.println("price before discount: "+price*number);
         return (price*number-number*price*discount);
     }
     public String toString(){

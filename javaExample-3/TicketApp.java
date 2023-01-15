@@ -41,14 +41,14 @@ public class TicketApp {
             System.out.println("total price:"+v.computePrice());
             System.out.println("\n");
         }
-        
-        
+
         TicketSeller ts=new TicketSeller(tickets);
+        
         int i=0;
         while(tickets.size()!=i){
             ts.Sell(tickets.get(i));
         }
-
+         System.out.println("\ntotal income: "+ts.getincomes());
        
         
     }
