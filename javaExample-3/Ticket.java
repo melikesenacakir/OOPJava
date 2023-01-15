@@ -10,6 +10,7 @@ public abstract class Ticket implements Comparable<Ticket>{
     }
     public abstract void print();
     public abstract double computePrice();
+    public abstract String toString();
     public int compareTo(Ticket t){
         if(this.number>t.number)
             return 1;
@@ -18,4 +19,5 @@ public abstract class Ticket implements Comparable<Ticket>{
         else
             return 0;
     }
+    
 }
