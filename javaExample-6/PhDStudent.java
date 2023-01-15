@@ -8,9 +8,9 @@ public class PhDStudent extends MasterStudent implements ArticleScoreBehaviour{
         this.numberOfArticle=numberOfArticle;
     }
     public float articleScore(){
-        return computeTotalScore()+articleScore();
+        return numberOfArticle*8;
     }
     public float computeTotalScore(){
-        return numberOfArticle*8;
+        return computeTotalScore()+articleScore();
     }
 }
