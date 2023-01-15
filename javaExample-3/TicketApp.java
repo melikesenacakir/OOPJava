@@ -17,7 +17,6 @@ public class TicketApp {
         Ticket t4=new DiscountTicket("24-25-33-35",4,0.7);
         List<Ticket> tickets=new ArrayList<>();
         
-        
         tickets.add(t1);
         tickets.add(t2);
         tickets.add(t3);
